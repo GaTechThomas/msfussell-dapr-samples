@@ -1,16 +1,11 @@
-*.exe
-*.exe~
-*.dll
-*.so
-*.dylib
-*.test
-*.out
-.DS_Store
+hello-service-fabric/daprsfpkg/MyService/CodeDapr/daprd.exe
+hello-service-fabric/daprsfpkg/MyService/CodeDapr/components/pubsub.yaml
+hello-service-fabric/daprsfpkg/MyService/CodeDapr/components/statestore.yaml
 
-demos/demo2/viewer/handler
-demos/demo3/demochart/templates/twitter.yaml
-
-## Get .gitignore entries for other stacks at https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
+.idea/
+package-lock.json
+vendor/**
+.venv/
 
 ###################################
 # BEGIN: Visual Studio and vscode

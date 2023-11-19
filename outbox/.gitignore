@@ -1,15 +1,3 @@
-*.exe
-*.exe~
-*.dll
-*.so
-*.dylib
-*.test
-*.out
-.DS_Store
-
-demos/demo2/viewer/handler
-demos/demo3/demochart/templates/twitter.yaml
-
 ## Get .gitignore entries for other stacks at https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
 ###################################
