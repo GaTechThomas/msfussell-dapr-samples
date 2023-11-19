@@ -6,8 +6,12 @@ apps:
     appDirPath: ./order-processor/
     command: ["dotnet", "run"]
     appLogDestination: console
+    daprdLogDestination: console
+    logLevel: debug  # info
   - appID: order-notification
     appDirPath: ./order-notification/
     appPort: 7006
     command: ["dotnet", "run"]
     appLogDestination: console
+    daprdLogDestination: console
+    logLevel: debug  # info
