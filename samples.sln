@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Component", "pluggable-components-dotnet-template\Component.csproj", "{10D71D93-4B68-43FC-975C-D4C188DF4619}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflow-external-invocation", "workflow-external-invocation", "{592B759C-3370-443A-BA3A-BF3214343E01}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheckoutServiceWorkflowSample", "workflow-external-invocation\CheckoutService\CheckoutServiceWorkflowSample.csproj", "{0C0ABDFB-C5DE-4390-B1B4-13C6E3EB6EBF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "functions-and-keda", "functions-and-keda", "{E4561547-012B-406D-B3B9-B96A16745AA9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FEF807B2-567C-46DC-B710-0B9D9D4B0E2A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "csharp-subscribe", "functions-and-keda\src\csharp-function-subscriber\csharp-subscribe.csproj", "{D1407E22-2E7E-4B70-A63B-7CB8C0BCAE3D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "twitter-sentiment-processor", "twitter-sentiment-processor", "{6CAF8798-63E1-44B4-8EAB-77F57EA2DB89}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "demos", "demos", "{108A5B72-195B-45FA-873D-C32D4BF1FA85}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "demo1", "demo1", "{9D2FFA2F-52B2-4AF7-BB08-082407A08AC4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Producer", "twitter-sentiment-processor\demos\demo1\provider-net\Producer.csproj", "{62CE4C95-4D2A-447A-AEC5-7BE4EFF3794F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10D71D93-4B68-43FC-975C-D4C188DF4619}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10D71D93-4B68-43FC-975C-D4C188DF4619}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10D71D93-4B68-43FC-975C-D4C188DF4619}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10D71D93-4B68-43FC-975C-D4C188DF4619}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C0ABDFB-C5DE-4390-B1B4-13C6E3EB6EBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C0ABDFB-C5DE-4390-B1B4-13C6E3EB6EBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C0ABDFB-C5DE-4390-B1B4-13C6E3EB6EBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C0ABDFB-C5DE-4390-B1B4-13C6E3EB6EBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1407E22-2E7E-4B70-A63B-7CB8C0BCAE3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1407E22-2E7E-4B70-A63B-7CB8C0BCAE3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1407E22-2E7E-4B70-A63B-7CB8C0BCAE3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1407E22-2E7E-4B70-A63B-7CB8C0BCAE3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62CE4C95-4D2A-447A-AEC5-7BE4EFF3794F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62CE4C95-4D2A-447A-AEC5-7BE4EFF3794F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62CE4C95-4D2A-447A-AEC5-7BE4EFF3794F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62CE4C95-4D2A-447A-AEC5-7BE4EFF3794F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0C0ABDFB-C5DE-4390-B1B4-13C6E3EB6EBF} = {592B759C-3370-443A-BA3A-BF3214343E01}
+		{FEF807B2-567C-46DC-B710-0B9D9D4B0E2A} = {E4561547-012B-406D-B3B9-B96A16745AA9}
+		{D1407E22-2E7E-4B70-A63B-7CB8C0BCAE3D} = {FEF807B2-567C-46DC-B710-0B9D9D4B0E2A}
+		{108A5B72-195B-45FA-873D-C32D4BF1FA85} = {6CAF8798-63E1-44B4-8EAB-77F57EA2DB89}
+		{9D2FFA2F-52B2-4AF7-BB08-082407A08AC4} = {108A5B72-195B-45FA-873D-C32D4BF1FA85}
+		{62CE4C95-4D2A-447A-AEC5-7BE4EFF3794F} = {9D2FFA2F-52B2-4AF7-BB08-082407A08AC4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F67332BE-ACBC-4D1A-987D-82BD169BE10A}
+	EndGlobalSection
+EndGlobal
