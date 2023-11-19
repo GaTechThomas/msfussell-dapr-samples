@@ -1,0 +1,12 @@
+# Set default behavior to auto-normalize line endings, used when core.autocrlf not set.
+* text=auto
+
+# Force batch scripts to always use CRLF line endings, for case of repo accessed
+# in Windows via a file share from Linux - scripts should still work.
+*.{cmd,[cC][mM][dD]} text eol=crlf
+*.{bat,[bB][aA][tT]} text eol=crlf
+*.{ics,[iI][cC][sS]} text eol=crlf
+
+# Force bash scripts to always use LF line endings. for case of repo accessed
+# in Linux via a file share from Windows - scripts should still work.
+*.sh text eol=lf
